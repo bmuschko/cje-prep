@@ -4,7 +4,7 @@
 
 1. Download the [latest stable Jenkins WAR file](http://mirrors.jenkins.io/war-stable/latest/jenkins.war).
 2. Open a terminal and navigate to the directory containing the WAR file.
-3. Run the command `java -jar jenkins.war` to start Jenkins on port 8080. Provide the `--httpPort` option if you experience a port conflict e.g. `java -jar jenkins.war --httpPort=9999`. After a couple of seconds you should see the message ` Jenkins is fully up and running` in the log output.
+3. Run the command `java -jar jenkins.war` to start Jenkins on port 8080. Provide the `--httpPort` option if you experience a port conflict e.g. `java -jar jenkins.war --httpPort=9999`. After a couple of seconds you should see the message "Jenkins is fully up and running" in the log output.
 4. Open a browser of your choice and navigate to `localhost:<port>`. The default is `localhost:8080`.
 5. In the screen named "Unlock Jenkins", enter the password from the console output. Press the "Continue" button.
 6. In the screen named "Customize Jenkins", select the option "Install suggested plugins".
