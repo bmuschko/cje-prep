@@ -21,7 +21,7 @@ The new user is now listed.
 
 Configure users and permissions.
 
-![Matrix Security](./images/08-matrix-security/matrix-security.png)
+![Matrix Security](./images/08-matrix-security/matrix-security-permissions.png)
 
 Log in with new user.
 
