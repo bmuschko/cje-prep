@@ -46,5 +46,9 @@ The JaCoCo coverage trend renders after executing the build twice.
 
 ![JaCoCo Coverage Report Trend](./images/05-test-execution-and-reporting/jacoco-trend.png)
 
+You can drill into the details of the report.
+
+![JaCoCo Coverage Report Trend](./images/05-test-execution-and-reporting/jacoco-report.png)
+
 </p>
 </details>
