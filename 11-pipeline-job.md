@@ -11,6 +11,9 @@
 7. Create a new branch named `bugfix` and push it to the remote repository. The code should be based off of `master`.
 8. Select "Scan Multibranch Pipeline Now". The job should build the new branch.
 
+<details><summary>Show Solution</summary>
+<p>
+
 The created credentials required for the job.
 
 ![Credentials](./images/11-pipeline-job/credentials.png)
@@ -106,3 +109,6 @@ To github.com:bmuschko/todo-spring-boot.git
 After scanning the repository, the new branch will be available and was triggered to build automatically.
 
 ![Bugfix Branch](./images/11-pipeline-job/bugfix-branch.png)
+
+</p>
+</details>
