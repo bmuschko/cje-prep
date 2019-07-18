@@ -66,7 +66,5 @@ In the terminal, navigate to the directory that contains the Jenkins CLI JAR fil
 $ java -jar jenkins-cli.jar -s http://localhost:8080 -auth buildbot:pwd build gradle-initializr
 ```
 
-
-
 </p>
 </details>
