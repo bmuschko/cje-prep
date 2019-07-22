@@ -9,10 +9,10 @@
 5. Install the Jenkins Go plugin.
 6. Configure the latest Go runtime as global tool.
 7. Enhance the `Jenkinsfile` based on the following requirements. The Jenkinsfile should use the declarative syntax.
-    7.1 The job can run on all agents.
-    7.2 The job sets the environment variable `GO111MODULES=on`.
-    7.3 The job uses the Go runtime from the global tool definition.
-    7.4 The job specifies one build stage named "Build". The build stage executes the shell command `go build`.
+    * The job can run on all agents.
+    * The job sets the environment variable `GO111MODULES=on`.
+    * The job uses the Go runtime from the global tool definition.
+    * The job specifies one build stage named "Build". The build stage executes the shell command `go build`.
 
 <details><summary>Show Solution</summary>
 <p>
