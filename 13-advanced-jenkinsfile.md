@@ -22,7 +22,7 @@ We'll want to enhance the pipeline by additional stages and implement a release 
 <details><summary>Show Solution</summary>
 <p>
 
-Create the CodeCov credentials.
+Create the credentials for the CodeCov token.
 
 ![CodeCov Credentials](./images/13-advanced-jenkinsfile/codecov_token_credentials.png)
 
@@ -51,7 +51,7 @@ stage('Code Analysis') {
 }
 ```
 
-Create the CodeCov credentials.
+Create the credentials for the GitHub token.
 
 ![GitHub Credentials](./images/13-advanced-jenkinsfile/github_token_credentials.png)
 
