@@ -8,7 +8,7 @@ We'll want to enhance the pipeline by additional stages and implement a release 
     * Add a build step that runs the shell command `go test ./...`.
     * Generate code coverage metrics by adding the option `-coverprofile=coverage.txt` to the build step.
     * Publish the code coverage metrics to CodeCov by sending a curl command `curl -s https://codecov.io/bash | bash -s -`.
-    * Create an account on CodeCov, determine the CodeCov token (aka Repository Upload Token) and set it up as credential in Jenkins.
+    * Log into [CodeCov](https://codecov.io/), determine the CodeCov token for the repository (aka Repository Upload Token) and set it up as credential in Jenkins.
     * Retrieve the credential and set the value as environment variable named `CODECOV_TOKEN`.
 2. Add a stage named `Code Analysis` that uses [golangci-lint](https://github.com/golangci/golangci-lint) to detect issues with the code.
     * Add a build step for installing the `golangci-lint` with the shell command `curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | bash -s -- -b $GOPATH/bin v1.17.1`
