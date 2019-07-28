@@ -79,7 +79,6 @@ Configure the shared library under _Manage Jenkins > Configure System_.
 The directory structure should look as shown below.
 
 ```
-$ tree
 .
 ├── Jenkinsfile
 ├── go.mod
