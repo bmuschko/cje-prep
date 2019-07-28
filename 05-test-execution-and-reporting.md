@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Displaying JUnit and JaCoCo test results
+## Displaying JUnit and JaCoCo Test Results
 
 1. Configure the `gradle-initializr` project to parse the JUnit XML results for unit test. The files can be found in the directory `build/test-results/test`.
 2. Execute the build twice to generate a graph. Have a look at the executed tests in the test results.

@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Storing and fingerprinting artifacts
+## Storing and Fingerprinting Artifacts
 
 1. Create a post-build action for archiving JAR file with the pattern `build/libs/*.jar`.
 2. Execute the build. The build should list the artifact `gradle-initializr-1.0.0.jar`.

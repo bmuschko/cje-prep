@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Notifying the team upon a broken build
+## Notifying the Team Upon a Broken Build
 
 1. Change the list of Gradle tasks to `doesnotexist` to emulate a failure. The build will fail as the task doesn't exist in the build script.
 2. Install the Google Chat plugin.

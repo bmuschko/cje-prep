@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Using the REST API for common operations
+## Using the REST API for Common Operations
 
 1. Create a new user named `buildbot`.
 2. Add adminstration permissions for the user.

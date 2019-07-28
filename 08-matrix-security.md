@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Creating a user and setting permissions
+## Creating a User and Setting Permissions
 
 1. Ensure that you are logged in as admin user.
 2. Create a new user named `miller`. Provide the relevant information.

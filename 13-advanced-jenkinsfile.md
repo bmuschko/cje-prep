@@ -1,6 +1,6 @@
 # Building Continuous Delivery (CD) Pipelines
 
-## Enhancing a pipeline with advanced features
+## Enhancing a Pipeline With Advanced Features
 
 We'll want to enhance the pipeline by additional stages and implement a release workflow. The project is going to use an external tool called GoReleaser to publish cross-compiled artifacts to GitHub Releases. The binaries should only be released if the commit has been tagged.
 

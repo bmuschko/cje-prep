@@ -1,6 +1,6 @@
 # Building Continuous Delivery (CD) Pipelines
 
-## Creating a pipeline job
+## Creating a Pipeline Job
 
 1. Have a look at the [repository](https://github.com/bmuschko/todo-spring-boot) `bmuschko/todo-spring-boot` on GitHub. The repository already contains the build definition in the form of a `Jenkinsfile`. Identify each of the steps.
 2. In Jenkins, set up the credentials `SONARCLOUD_TOKEN` and `HEROKU_API_KEY` if they don't exist yet.

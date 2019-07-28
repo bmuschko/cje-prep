@@ -1,6 +1,6 @@
 # Building Continuous Delivery (CD) Pipelines
 
-## Writing and using a shared library
+## Writing and Using a Shared Library
 
 1. Set up a new GitHub repository named `jenkins-standard-go-pipeline`. It will define a standard pipeline definition for Go projects implemented as shared library.
 2. Add the file `vars/standard.groovy` that defines the declarative pipeline as global variable. Make the Go tool name and golang-ci version configurable with the help of parameters.

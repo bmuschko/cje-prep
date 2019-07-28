@@ -1,6 +1,6 @@
 # Building Continuous Delivery (CD) Pipelines
 
-## Writing a basic Jenkinsfile
+## Writing a Basic Jenkinsfile
 
 1. Create a new GitHub repository named `go-on-jenkins`.
 2. Create a new `Jenkinsfile` in the root directory of the repository as well as a simple `main.go` file. The main function just prints "Hello World!". Initialize the project via Go Modules.

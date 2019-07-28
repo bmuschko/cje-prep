@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Configuring and executing jobs in a distributed build
+## Configuring and Executing Jobs in a Distributed Build
 
 1. Go to "Manage Jenkins" > "Manage Nodes". You should see a single `master` node.
 2. Configure the `master` node by setting the # of executor value to 0. That will take care of never using the `master` for job workload.

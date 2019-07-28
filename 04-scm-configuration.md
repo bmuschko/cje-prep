@@ -1,6 +1,6 @@
 # Key CI/CD/Jenkins Concepts and their Usage
 
-## Configuring a GitHub repository
+## Configuring a GitHub Repository
 
 1. Create a new freestyle job named `gradle-initializr`.
 2. Configure Git as the SCM and use the repository URL `git@github.com:bmuschko/gradle-initializr.git`. Only build from the branch `master`.
