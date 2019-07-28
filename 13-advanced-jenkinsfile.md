@@ -31,7 +31,7 @@ You can implement the "Test" stage as follows.
 ```groovy
 stage('Test') {
     environment {
-        CODECOV_TOKEN = credentials('codecov_token')
+        CODECOV_TOKEN = credentials('CODECOV_TOKEN')
     }
     steps {
         sh 'go test ./... -coverprofile=coverage.txt'
@@ -63,7 +63,7 @@ stage('Release') {
         buildingTag()
     }
     environment {
-        GITHUB_TOKEN = credentials('github_token')
+        GITHUB_TOKEN = credentials('GITHUB_TOKEN')
     }
     steps {
         sh 'curl -sL https://git.io/goreleaser | bash'
