@@ -2,7 +2,7 @@
 
 ## Storing and Fingerprinting Artifacts
 
-1. Create a post-build action for archiving JAR file with the pattern `build/libs/*.jar`.
+1. Create a post-build action for archiving JAR files with the pattern `build/libs/*.jar`. Enable the fingerprinting option.
 2. Execute the build. The build should list the artifact `gradle-initializr-1.0.0.jar`.
 3. Have a look at the recorded fingerprints of this build.
 4. Render the MD5 hash of the artifact and the usage of the artifact.

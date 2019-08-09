@@ -4,7 +4,7 @@
 
 1. Change the list of Gradle tasks to `doesnotexist` to emulate a failure. The build will fail as the task doesn't exist in the build script.
 2. Install the Google Chat plugin.
-3. Create a new chat room in Google Chat named `jenkins-test`.
+3. Create a new chat room in Google Chat named `jenkins-test` at [https://chat.google.com/](https://chat.google.com/).
 4. For the chat room configure the webhook.
 5. Configure the job to send a notification whenever the job fails. Use the webhook generated on Google Chat.
 6. Execute the build. The build should fail and send a notification to the chat room.
