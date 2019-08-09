@@ -33,6 +33,18 @@ Configure a Go runtime as global tool.
 
 ![Go Global Tool](./images/12-basic-jenkinsfile/go-global-tool.png)
 
+The `main.go` file could similar to the one below.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("hello world")
+}
+```
+
 The final `Jenkinsfile` looks similar to the solution below.
 
 ```groovy
