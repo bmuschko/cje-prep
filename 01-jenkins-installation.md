@@ -2,7 +2,7 @@
 
 ## Installing Jenkins
 
-1. Download the [latest stable Jenkins WAR file](http://mirrors.jenkins.io/war-stable/latest/jenkins.war).
+1. Download the [latest stable Jenkins WAR file](http://mirrors.jenkins.io/war-stable/latest/jenkins.war). To download from the command line, use `wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war`.
 2. Open a terminal and navigate to the directory containing the WAR file.
 3. Run the command `java -jar jenkins.war` to start Jenkins on port 8080. Provide the `--httpPort` option if you experience a port conflict e.g. `java -jar jenkins.war --httpPort=9999`. After a couple of seconds you should see the message "Jenkins is fully up and running" in the log output.
 4. Open a browser of your choice and navigate to `localhost:<port>`. The default is `localhost:8080`.
@@ -14,6 +14,26 @@
 
 <details><summary>Show Solution</summary>
 <p>
+Download the WAR file with the help of `wget`.
+
+```bash
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+--2019-08-09 16:06:23--  http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+Resolving mirrors.jenkins.io (mirrors.jenkins.io)... 52.202.51.185
+Connecting to mirrors.jenkins.io (mirrors.jenkins.io)|52.202.51.185|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://mirror.xmission.com/jenkins/war-stable/2.176.2/jenkins.war [following]
+--2019-08-09 16:06:23--  http://mirror.xmission.com/jenkins/war-stable/2.176.2/jenkins.war
+Resolving mirror.xmission.com (mirror.xmission.com)... 2607:fa18:0:3::13, 198.60.22.13
+Connecting to mirror.xmission.com (mirror.xmission.com)|2607:fa18:0:3::13|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 77379386 (74M) [application/java-archive]
+Saving to: ‘jenkins.war’
+
+jenkins.war                   100%[=================================================>]  73.79M  6.46MB/s    in 14s
+
+2019-08-09 16:06:37 (5.36 MB/s) - ‘jenkins.war’ saved [77379386/77379386]
+```
 
 First, start the Jenkins server. Copy the password printed in the log output to the clipboard.
 
