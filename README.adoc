@@ -2,9 +2,9 @@
 
 ++++
 <br>
-<img align="left" role="left" src="https://learning.oreilly.com/api/v1/refworks/image/800x600/media/book/43/0636920305934/0636920305934-2019-10-03.jpg" width="225" alt="Learning Path Cover" />
+<img align="left" role="left" src="https://learning.oreilly.com/covers/urn:orm:video:0636920305965/400w/" width="240" alt="Learning Path Cover" />
 ++++
-Demo instructions and solutions for the online video course https://learning.oreilly.com/learning-paths/learning-path-certified/0636920305934/["Certified Jenkins Engineer (CJE) Prep Course"], published by Benjamin Muschko for O'Reilly Media Inc.
+Demo instructions and solutions for the online video course https://learning.oreilly.com/videos/certified-jenkins-engineer/0636920305965/["Certified Jenkins Engineer (CJE) Prep Course"], published by Benjamin Muschko for O'Reilly Media Inc.
 
 In this learning path, intended for those with intermediate-level experience or administrator-level proficiency with the open source version of Jenkins, your host, trainer and CJE, Benjamin Muschko, walks you through the topics covered in the exam so that you can fully prepare to pass and earn your https://www.cloudbees.com/jenkins/jenkins-certification[CJE]. You begin with an overview of the exam environment itself and the high-level goals of the exam. You then move on to a review of general CI/CD terminology and how it applies to Jenkins concepts. You’ll look at how to create CI/CD models that are scalable, maintainable, and secure. This learning path offers many demonstrations to help reinforce what you're learning. When you’ve completed it, you should be in a good position to pass the exam and add the initials “CJE” to your title and resume.
 
